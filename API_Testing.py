@@ -19,7 +19,7 @@ def getTransitTimes(origin,dest,when):
     #Setting up constants used
     gmaps_endpoint='https://maps.googleapis.com/maps/api/directions/json?'
     geonames_endpoint='http://api.geonames.org/timezoneJSON?formatted=true&lat={}&lng={}&username=ecwhodie'
-    gmaps_api_key='AIzaSyA2Vtv-XaMMsTzWCCIcMdk7XfyzAE3OHuI'
+    gmaps_api_key='API_KEY_HERE'
     
     #Where and when the user is going and where they are coming from
     #eventTime=datetime.datetime(2018,1,1,0,0)
